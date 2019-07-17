@@ -1,0 +1,8 @@
+y14((_n2+1),d) = ite((__VERIFIER_nondet_bool3(_n2)>0),__VERIFIER_nondet_bool4(_n2),(y14(_n2,d)-d))
+x14((_n2+1),d) = ite((__VERIFIER_nondet_bool3(_n2)>0),(x14(_n2,d)-d),x14(_n2,d))
+c14((_n2+1)) = __VERIFIER_nondet_bool3(_n2)
+z14((_n2+1)) = ite((__VERIFIER_nondet_bool3(_n2)>0),(z14(_n2)-1),z14(_n2))
+y14(0,d) = __VERIFIER_nondet_int3
+x14(0,d) = __VERIFIER_nondet_int2
+c14(0) = c
+z14(0) = ((2**_N1)*1)

@@ -1,0 +1,6 @@
+tmp5((_n1+1)) = __VERIFIER_nondet_bool2(_n1)
+x5((_n1+1)) = ite((__VERIFIER_nondet_bool2(_n1)>0),(x5(_n1)+1),(x5(_n1)-1))
+z5((_n1+1)) = ite((__VERIFIER_nondet_bool2(_n1)>0),z5(_n1),(z5(_n1)-1))
+tmp5(0) = tmp
+x5(0) = __VERIFIER_nondet_int2
+z5(0) = __VERIFIER_nondet_int4

@@ -1,0 +1,10 @@
+i13((_n1+1)) = ite((__VERIFIER_nondet_int3(_n1)!=0),(i13(_n1)+1),i13(_n1))
+RET13((_n1+1)) = ite((__VERIFIER_nondet_int3(_n1)==0),0,RET13(_n1))
+break_1_flag13((_n1+1)) = ite((__VERIFIER_nondet_int3(_n1)==0),1,0)
+y13((_n1+1)) = __VERIFIER_nondet_int3(_n1)
+x13((_n1+1)) = ite((__VERIFIER_nondet_int3(_n1)!=0),((x13(_n1)-y13(_n1))+__VERIFIER_nondet_int3(_n1)),(x13(_n1)-y13(_n1)))
+i13(0) = 0
+RET13(0) = ite((__VERIFIER_nondet_int2<=0),0,0)
+break_1_flag13(0) = 0
+y13(0) = 0
+x13(0) = 0

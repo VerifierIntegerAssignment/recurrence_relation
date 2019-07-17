@@ -1,0 +1,18 @@
+d1array2(_x1,_x2,(_n1+1)) = ite(((_x1=string_entrada) and (_x2=(_n1+0))),__VERIFIER_nondet_char2(_n1),d1array2(_x1,_x2,_n1))
+d1array2(_x1,_x2,0) = ite(((_x1=vetor_vogais) and (_x2=10)),0,ite(((_x1=vetor_vogais) and (_x2=9)),char(U),ite(((_x1=vetor_vogais) and (_x2=8)),char(u),ite(((_x1=vetor_vogais) and (_x2=7)),char(O),ite(((_x1=vetor_vogais) and (_x2=6)),char(o),ite(((_x1=vetor_vogais) and (_x2=5)),char(I),ite(((_x1=vetor_vogais) and (_x2=4)),char(i),ite(((_x1=vetor_vogais) and (_x2=3)),char(E),ite(((_x1=vetor_vogais) and (_x2=2)),char(e),ite(((_x1=vetor_vogais) and (_x2=1)),char(A),ite(((_x1=vetor_vogais) and (_x2=0)),char(a),d1array(_x1,_x2))))))))))))
+cont6((_n3+1),_n4) = ite((ite(((string_entrada=string_entrada) and ((_n4+0)=(10-1))),0,d1array2(string_entrada,(_n4+0),_N1))==ite(((vetor_vogais=string_entrada) and ((_n3+0)=(10-1))),0,d1array2(vetor_vogais,(_n3+0),_N1))),(cont6(_n3,_n4)+1),cont6(_n3,_n4))
+cont6(0,_n4) = cont9(_n4)
+(_N3(_n4)>=(-(0)+8))
+(_n3<_N3(_n4)) -> ((_n3+0)<8)
+j9((_n4+1)) = (_N3(_n4)+0)
+cont9((_n4+1)) = cont6(_N3(_n4),_n4)
+j9(0) = j
+cont9(0) = 0
+(_N4>=(-(0)+(_N2+0)))
+(_n4<_N4) -> ((_n4+0)<(_N2+0))
+cont_aux12((_n5+1),_n6) = ite((ite(((string_entrada=string_entrada) and ((_n6+0)=(10-1))),0,d1array2(string_entrada,(_n6+0),_N1))==ite(((vetor_vogais=string_entrada) and ((_n5+0)=(10-1))),0,d1array2(vetor_vogais,(_n5+0),_N1))),(cont_aux12(_n5,_n6)+1),cont_aux12(_n5,_n6))
+cont_aux12(0,_n6) = cont_aux15(_n6)
+j15((_n6+1)) = (_N5(_n6)+0)
+cont_aux15((_n6+1)) = cont_aux12(_N5(_n6),_n6)
+j15(0) = j9(_N4)
+cont_aux15(0) = 0
